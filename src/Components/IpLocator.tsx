@@ -54,9 +54,9 @@ export default function IpLocator() {
 
     return (
         <Box height='100%' width='100%' display='flex' justifyContent='center' alignItems='center' sx={{ backgroundImage: `url(${backgroundUrl})`, backgroundRepeat: 'no-repeat', backgroundSize: '100% 100%' }}>
-            <Box sx={{ height: { xs: '60%', sm: '60%', md: '70%', lg: '75%', xl: '75%' }, width: { xs: '80%', sm: '70%', md: '60%', lg: '40%', xl: '40%' } }} display='flex' justifyContent='center' alignItems='center'>
+            <Box sx={{ height: { xs: '70%', sm: '70%', md: '70%', lg: '75%', xl: '75%' }, width: { xs: '80%', sm: '70%', md: '60%', lg: '40%', xl: '40%' } }} display='flex' justifyContent='center' alignItems='center'>
                 <Card sx={{ height: '100%', width: '100%', display: 'flex', justifyContent: 'center', alignItems: 'center', bgcolor: '#fafafa', borderRadius: '2rem', boxShadow: 24 }}>
-                    <Stack height='100%' width='100%' direction='column' spacing={1} display='flex' justifyContent='center' alignItems='center' padding={3} boxSizing='border-box'>
+                    <Stack height='100%' width='100%' direction='column' spacing={1} display='flex' justifyContent='center' alignItems='center' paddingX={3} paddingY={1}boxSizing='border-box'>
                         <Box height='12%' width='100%' display='flex' justifyContent='center' alignItems='center'>
                             <Typography component='h1' fontSize='2rem' fontWeight='600' fontFamily='Poppins'>IP Locator</Typography>
                         </Box>
@@ -66,14 +66,14 @@ export default function IpLocator() {
                         </Stack>
                         <Stack height='76%' width='100%' direction='row' display='flex' justifyContent='center' alignItems='center' paddingX={1} paddingY={1} boxSizing='border-box'>
                             <Stack height='100%' width='50%' direction='column' spacing={1.8} display='flex' justifyContent='flex-start' alignItems='flex-start'>
-                                <Typography component='h2' fontSize='1rem' fontWeight='600' fontFamily='Poppins'>IP Address:</Typography>
-                                <Typography component='h2' fontSize='1rem' fontWeight='600' fontFamily='Poppins'>Version:</Typography>
-                                <Typography component='h2' fontSize='1rem' fontWeight='600' fontFamily='Poppins'>City:</Typography>
-                                <Typography component='h2' fontSize='1rem' fontWeight='600' fontFamily='Poppins'>Region:</Typography>
-                                <Typography component='h2' fontSize='1rem' fontWeight='600' fontFamily='Poppins'>Country:</Typography>
-                                <Typography component='h2' fontSize='1rem' fontWeight='600' fontFamily='Poppins'>Postal:</Typography>
-                                <Typography component='h2' fontSize='1rem' fontWeight='600' fontFamily='Poppins'>Latitude:</Typography>
-                                <Typography component='h2' fontSize='1rem' fontWeight='600' fontFamily='Poppins'>Longitude:</Typography>
+                                <Typography component='h2' fontSize='1rem' fontWeight='600' fontFamily='Poppins' noWrap={true}>IP Address:</Typography>
+                                <Typography component='h2' fontSize='1rem' fontWeight='600' fontFamily='Poppins' noWrap={true}>Version:</Typography>
+                                <Typography component='h2' fontSize='1rem' fontWeight='600' fontFamily='Poppins' noWrap={true}>City:</Typography>
+                                <Typography component='h2' fontSize='1rem' fontWeight='600' fontFamily='Poppins' noWrap={true}>Region:</Typography>
+                                <Typography component='h2' fontSize='1rem' fontWeight='600' fontFamily='Poppins' noWrap={true}>Country:</Typography>
+                                <Typography component='h2' fontSize='1rem' fontWeight='600' fontFamily='Poppins' noWrap={true}>Postal:</Typography>
+                                <Typography component='h2' fontSize='1rem' fontWeight='600' fontFamily='Poppins' noWrap={true}>Latitude:</Typography>
+                                <Typography component='h2' fontSize='1rem' fontWeight='600' fontFamily='Poppins' noWrap={true}>Longitude:</Typography>
                             </Stack>
                             <Stack height='100%' width='50%' direction='column' spacing={1.8} display='flex' justifyContent='flex-start' alignItems='flex-start'>
                                 <Typography component='h2' fontSize='1rem' fontWeight='500' fontFamily='Poppins' noWrap={true}>{objData.ip ? objData.ip : '-'}</Typography>
