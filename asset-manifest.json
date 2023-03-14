@@ -1,12 +1,12 @@
 {
   "files": {
-    "main.js": "/ip-locator-app/static/js/main.4e41168c.js",
+    "main.js": "/ip-locator-app/static/js/main.49659339.js",
     "static/js/787.84ba0894.chunk.js": "/ip-locator-app/static/js/787.84ba0894.chunk.js",
     "index.html": "/ip-locator-app/index.html",
-    "main.4e41168c.js.map": "/ip-locator-app/static/js/main.4e41168c.js.map",
+    "main.49659339.js.map": "/ip-locator-app/static/js/main.49659339.js.map",
     "787.84ba0894.chunk.js.map": "/ip-locator-app/static/js/787.84ba0894.chunk.js.map"
   },
   "entrypoints": [
-    "static/js/main.4e41168c.js"
+    "static/js/main.49659339.js"
   ]
 }
